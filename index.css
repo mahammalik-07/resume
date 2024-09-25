@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+    font-family: 'Spartan'sans-serif;}
+    body{
+        background-image: url(/WhatsApp\ Image\ 2024-09-14\ at\ 12.13.13.jpeg);
+        opacity: 100%;
+}
+.information{
+    font-weight: 200;
+    color:rgb(235, 231, 231);
+}
+.data{
+    font-weight: 100;
+    color:white;
+}
+h1{
+    color: white;
+    margin-left: 44%;
+    
+}
+
+
+.formelements{
+    color: white;
+    display: inline;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    margin-left: 40% ;
+    background: rgb(57, 76, 73);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(57, 76, 73);
+    color: rgba(157, 138, 138, 0.441);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #222c29;
+}
+#resumebuilder{
+    margin-left: 45%;
+    
+}
+button{
+    color: aliceblue;
+}
+.home{
+    margin-left: 30%;
+}
+#outputResume{
+    margin-top: 25px;
+    display: grid;
+    grid: center;
+    height: 600px;
+    width: 300px;
+    padding: 5px;
+    color: black;
+    border: 2px solid rgb(57, 76, 73);
+    background-color: #fefbfb;
+    border-radius: 56px;
+    text-align: center;
+    margin-left: 40%;
+}
+#workExperience {
+    display: none; /* Start hidden */
+}
+h2{color: #fefbfb;}
